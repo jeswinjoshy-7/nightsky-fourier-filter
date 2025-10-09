@@ -1,6 +1,20 @@
-# Fourier Transform Image Filter
+# Fourier Transform Image Filter 🎨
+
+[![Node.js](https://img.shields.io/badge/Node.js-18+-green.svg)](https://nodejs.org/)
+[![React](https://img.shields.io/badge/React-18+-blue.svg)](https://reactjs.org/)
+[![Express](https://img.shields.io/badge/Express.js-4.18+-black.svg)](https://expressjs.com/)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A full-stack application that demonstrates 2D Fast Fourier Transform (FFT) for image noise reduction using low-pass filtering. The application separates the original React application into a backend API and frontend client architecture.
+
+## 🌟 Features
+
+- **Real-time Image Processing**: Upload images and see FFT filtering in real-time
+- **Custom FFT Implementation**: Pure JavaScript 2D FFT using Cooley-Tukey algorithm
+- **Four-Panel Visualization**: See original, filtered, and frequency domain representations
+- **Sample Generation**: Generate noisy night sky images for testing
+- **Responsive Design**: Works on desktop and mobile devices
+- **Modern UI**: Dark theme with professional styling
 
 ## 🏗️ Architecture
 
@@ -32,14 +46,15 @@ Low-pass FFT/
 
 ### Prerequisites
 
-- Node.js (v14 or higher)
+- Node.js (v18 or higher)
 - npm or yarn
 
 ### Installation
 
-1. **Clone or navigate to the project directory:**
+1. **Clone the repository:**
    ```bash
-   cd "Low-pass FFT"
+   git clone https://github.com/YOUR_USERNAME/fft-image-filter.git
+   cd fft-image-filter
    ```
 
 2. **Install all dependencies (root, backend, and frontend):**
@@ -69,6 +84,12 @@ npm run backend
 ```bash
 npm run frontend
 ```
+
+### 🌐 Live Demo
+
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20App-blue)](https://your-demo-url.com)
+
+*Deploy this application to see it in action!*
 
 ## 🔧 Available Scripts
 
@@ -208,12 +229,39 @@ This application demonstrates:
 
 ## 🤝 Contributing
 
+Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
+
 1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📸 Screenshots
+
+![Application Interface](https://via.placeholder.com/800x400/1f2937/ffffff?text=FFT+Image+Filter+Interface)
+*Four-panel visualization showing original image, filtered result, and frequency domain representations*
+
+## 🔬 Technical Details
+
+### FFT Algorithm
+- **Type**: 2D Fast Fourier Transform
+- **Implementation**: Cooley-Tukey algorithm for powers of 2
+- **Performance**: Optimized for real-time image processing
+- **Filter**: Circular low-pass filter in frequency domain
+
+### Tech Stack
+- **Backend**: Node.js, Express.js, Sharp, Canvas
+- **Frontend**: React, Axios, Lucide React
+- **Image Processing**: Custom FFT implementation
+- **Styling**: CSS with responsive design
 
 ## 📄 License
 
-MIT License - feel free to use this project for learning and development purposes.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- Inspired by digital signal processing concepts
+- Built with modern web technologies
+- Educational project for understanding FFT applications in image processing
