@@ -1,8 +1,8 @@
-# 🚀 Export to VS Code Guide
+#  Export to VS Code Guide
 
 This guide will help you export and set up your FFT Image Filter project in VS Code.
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 FFT Image Filter/
@@ -26,7 +26,7 @@ FFT Image Filter/
 └── package.json             # Root package with scripts
 ```
 
-## 🔧 VS Code Setup
+##  VS Code Setup
 
 ### 1. **Open in VS Code**
 ```bash
@@ -50,24 +50,24 @@ VS Code will prompt you to install recommended extensions:
 
 ### 3. **VS Code Features Available**
 
-#### **🎯 Tasks (Ctrl+Shift+P → "Tasks: Run Task")**
+####  Tasks (Ctrl+Shift+P → "Tasks: Run Task")**
 - **Install All Dependencies**: `npm run install-all`
 - **Start Development (Both)**: `npm run dev`
 - **Start Backend Only**: `npm run backend`
 - **Start Frontend Only**: `npm run frontend`
 - **Push to GitHub**: `git push -u origin main`
 
-#### **🐛 Debug Configurations (F5)**
+#### Debug Configurations (F5)**
 - **Debug Backend**: Debug the Express.js server
 - **Launch Backend**: Run backend with nodemon
 
-#### **⚙️ Settings**
+####  Settings**
 - Format on save enabled
 - ESLint auto-fix
 - File nesting for cleaner explorer
 - Optimized search exclusions
 
-## 🚀 Quick Start in VS Code
+## Quick Start in VS Code
 
 ### **Method 1: Using VS Code Tasks**
 1. Open VS Code
@@ -87,13 +87,13 @@ VS Code will prompt you to install recommended extensions:
 2. Select "Debug Backend"
 3. Open new terminal: `npm run frontend`
 
-## 🌐 Access Your Application
+## Access Your Application
 
 - **Frontend**: http://localhost:3000
 - **Backend API**: http://localhost:5000
 - **API Health Check**: http://localhost:5000/api/health
 
-## 🔍 VS Code Features
+##  VS Code Features
 
 ### **File Explorer**
 - Clean project structure
@@ -114,7 +114,7 @@ VS Code will prompt you to install recommended extensions:
 - Thunder Client for testing backend APIs
 - Built-in REST client capabilities
 
-## 🛠️ Development Workflow
+##  Development Workflow
 
 ### **Backend Development**
 1. Open `backend/server.js`
@@ -133,7 +133,7 @@ VS Code will prompt you to install recommended extensions:
 2. Both servers start automatically
 3. Changes in either backend or frontend auto-reload
 
-## 📦 Package Management
+##  Package Management
 
 ### **Install New Dependencies**
 ```bash
@@ -156,7 +156,7 @@ npm outdated
 npm update
 ```
 
-## 🚀 Deployment
+##  Deployment
 
 ### **Build for Production**
 ```bash
@@ -171,7 +171,7 @@ cd backend && npm start
 - Use "Push to GitHub" task
 - Or: `git push -u origin main`
 
-## 🎯 Tips for VS Code
+##  Tips for VS Code
 
 1. **Multi-root Workspace**: Use the `.code-workspace` file for better organization
 2. **Integrated Terminal**: Use `Ctrl+`` ` for quick terminal access
@@ -180,7 +180,7 @@ cd backend && npm start
 5. **Side by Side**: `Ctrl+\` to split editor
 6. **Zen Mode**: `F11` for distraction-free coding
 
-## 🔧 Troubleshooting
+##  Troubleshooting
 
 ### **Port Conflicts**
 If ports 3000/5000 are in use:
@@ -205,7 +205,7 @@ npm run install-all
 - Reload window: `Ctrl+Shift+P` → "Developer: Reload Window"
 - Reset settings: Remove `.vscode` folder and recreate
 
-## 📚 Additional Resources
+##  Additional Resources
 
 - [VS Code Documentation](https://code.visualstudio.com/docs)
 - [Node.js Debugging](https://code.visualstudio.com/docs/nodejs/nodejs-debugging)
