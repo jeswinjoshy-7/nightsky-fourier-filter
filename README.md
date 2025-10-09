@@ -53,8 +53,8 @@ Low-pass FFT/
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/fft-image-filter.git
-   cd fft-image-filter
+   git clone https://github.com/jeswinjoshy-7/nightsky-fourier-filter.git
+   cd nightsky-fourier-filter
    ```
 
 2. **Install all dependencies (root, backend, and frontend):**
