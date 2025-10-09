@@ -1,0 +1,19 @@
+{
+  "recommendations": [
+    "ms-vscode.vscode-typescript-next",
+    "bradlc.vscode-tailwindcss",
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "ms-vscode.vscode-json",
+    "formulahendry.auto-rename-tag",
+    "christian-kohler.path-intellisense",
+    "ms-vscode.vscode-npm-script",
+    "ms-vscode.vscode-node-debug2",
+    "ms-vscode.vscode-node-azure-pack",
+    "ms-vscode.vscode-react-snippets",
+    "ms-vscode.vscode-javascript-booster",
+    "ms-vscode.vscode-git-graph",
+    "eamodio.gitlens",
+    "ms-vscode.vscode-thunder-client"
+  ]
+}
