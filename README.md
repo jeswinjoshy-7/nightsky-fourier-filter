@@ -1,13 +1,22 @@
-# Fourier Transform Image Filter 🎨
+# Fourier Transform Image Filter 
 
 [![Node.js](https://img.shields.io/badge/Node.js-18+-green.svg)](https://nodejs.org/)
 [![React](https://img.shields.io/badge/React-18+-blue.svg)](https://reactjs.org/)
 [![Express](https://img.shields.io/badge/Express.js-4.18+-black.svg)](https://expressjs.com/)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 
 A full-stack application that demonstrates 2D Fast Fourier Transform (FFT) for image noise reduction using low-pass filtering. The application separates the original React application into a backend API and frontend client architecture.
 
-## 🌟 Features
+
+<img width="1097" height="947" alt="Screenshot from 2025-10-09 23-20-57" src="https://github.com/user-attachments/assets/6ebbd934-5123-4c53-b0bb-dddc44db6f31" />
+
+
+
+
+
+
+##  Features
+
 
 - **Real-time Image Processing**: Upload images and see FFT filtering in real-time
 - **Custom FFT Implementation**: Pure JavaScript 2D FFT using Cooley-Tukey algorithm
@@ -16,13 +25,13 @@ A full-stack application that demonstrates 2D Fast Fourier Transform (FFT) for i
 - **Responsive Design**: Works on desktop and mobile devices
 - **Modern UI**: Dark theme with professional styling
 
-## 🏗️ Architecture
+## Architecture
 
 - **Backend**: Express.js server with image processing capabilities using Sharp and Canvas
 - **Frontend**: React application that communicates with the backend API
 - **Processing**: Custom FFT implementation for 2D image filtering
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 Low-pass FFT/
@@ -42,7 +51,7 @@ Low-pass FFT/
 └── README.md              # This file
 ```
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 
@@ -85,13 +94,13 @@ npm run backend
 npm run frontend
 ```
 
-### 🌐 Live Demo
+###  Live Demo
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20App-blue)](https://your-demo-url.com)
 
 *Deploy this application to see it in action!*
 
-## 🔧 Available Scripts
+## Available Scripts
 
 ### Root Level
 - `npm run dev` - Start both backend and frontend concurrently
@@ -119,7 +128,7 @@ npm run frontend
   - **Response**: JSON with original image, filtered image, and spectrum visualizations
 - `GET /api/generate-sample` - Generate a sample night sky image with noise
 
-## 🎯 Features
+## Features
 
 ### Backend Features
 - **Custom FFT Implementation**: Pure JavaScript implementation of 2D FFT
@@ -162,7 +171,7 @@ npm run frontend
 - **Cutoff**: Configurable radius (1-150 pixels)
 - **Effect**: Removes high-frequency noise while preserving image structure
 
-## 🎨 UI/UX Features
+##  UI/UX Features
 
 - **Dark Theme**: Professional dark interface
 - **Loading States**: Visual feedback during processing
@@ -184,7 +193,7 @@ REACT_APP_API_URL=http://localhost:5000
 The backend server can be configured via environment variables:
 - `PORT`: Server port (default: 5000)
 
-## 🚀 Production Deployment
+##  Production Deployment
 
 ### Backend Deployment
 1. Build and deploy the backend server
@@ -201,7 +210,7 @@ The backend server can be configured via environment variables:
 2. Deploy the `build` folder to a static hosting service
 3. Update `REACT_APP_API_URL` to point to your backend
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues
 
@@ -218,7 +227,7 @@ The backend server can be configured via environment variables:
 
 3. **CORS issues**: Ensure the backend is running and accessible from the frontend URL
 
-## 📚 Learning Resources
+##  Learning Resources
 
 This application demonstrates:
 - 2D Fast Fourier Transform implementation
@@ -227,7 +236,7 @@ This application demonstrates:
 - Real-time image filtering
 - Frequency domain visualization
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
@@ -237,12 +246,12 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📸 Screenshots
+##  Screenshots
 
 ![Application Interface](https://via.placeholder.com/800x400/1f2937/ffffff?text=FFT+Image+Filter+Interface)
 *Four-panel visualization showing original image, filtered result, and frequency domain representations*
 
-## 🔬 Technical Details
+##  Technical Details
 
 ### FFT Algorithm
 - **Type**: 2D Fast Fourier Transform
@@ -256,11 +265,7 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 - **Image Processing**: Custom FFT implementation
 - **Styling**: CSS with responsive design
 
-## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
 
 - Inspired by digital signal processing concepts
 - Built with modern web technologies
