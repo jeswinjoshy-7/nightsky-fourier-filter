@@ -118,7 +118,7 @@ npm run frontend
 - `npm test` - Run tests
 - `npm run eject` - Eject from Create React App
 
-## 🛠️ API Endpoints
+##  API Endpoints
 
 ### Backend Server (Port 5000)
 
@@ -179,7 +179,7 @@ npm run frontend
 - **Responsive Grid**: Adapts to different screen sizes
 - **Modern Icons**: Lucide React icons for better UX
 
-## 🔧 Configuration
+##  Configuration
 
 ### Environment Variables
 
